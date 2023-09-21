@@ -48,7 +48,7 @@ section).
 \item Using fourth-order Runge-Kutta construct a piece of code that
   will solve this problem (it is okay to use the implementation from
   {\tt scipy}). Have it output the time steps to a file (this will be
-  convenient for plotting later)
+  convenient for plotting later).
 \item Create a piece of code that will solve this with the leap-frog
   method (again with the ability to output the time steps).
 \item Create a piece of code that will create an animation of the
@@ -56,6 +56,8 @@ section).
 \item Using the initial conditions of part (b) of the exercise,
   compare the answers of the two integrators for the evolution of
   $\theta_1$ and $\theta_2$.
+\item Test the convergence of each integrator as a function of time
+  step size.
 \item With the same initial conditions, test the conservation of
   energy for each integrator.
 \end{itemize}
@@ -76,7 +78,8 @@ section plots all of those values.
   {\it sure}, that the second condition does not matter much) We will
   plot $\theta_2$ and $\dot\theta_2$. Because energy is conserved,
   $\dot\theta_1$ is fully determined for each data point in the plot
-  (its sign is defined). Write a piece of code to analyze your
+  (and its sign is defined because of the way you are constructing the
+  section). Write a piece of code to analyze your
   integration output and create such a diagram from some given set of
   initial conditions.
  \item Make the Poincar{\'e} section for several different
@@ -84,6 +87,27 @@ section plots all of those values.
    energy. Use energies just above the energies of the lowest three
    stationary points, as these illustrate the different regimes of
    behavior.
+\item For each of the three energies, pick a particular fiducial
+  starting point along with several ($\sim 10$) nearby starting points
+  distributed randomly aroudn it. Examine how the distance between the
+  trajectories and the fiducial trajectory changes over time (defined
+  using a Euclidean metric in the four-dimensional phase space) for
+  each case. For chaotic orbits you should expect the distances to
+  grow exponentially; the exponential growth rate is called the
+  Lyapunov exponent.
 \end{itemize}
+
+\section{Extreme Bonus: Lyapunov estimates}
+
+Section 3 of
+\href{https://www.sciencedirect.com/science/article/pii/0167278985900119}{Wolf
+  et al (1985)} discusses a method to determine the Lyapunov exponents
+from a differential equation.
+
+A very advanced bonus element of this project would be to use that
+method to characterize the Lyapunov estimate. {\it Definitely only try
+  this if you have everything else done! I'm not sure the grad
+  students doing this project will be able to do this part easily
+  either, so don't worry if you skip this part.}
 
 \end{document}

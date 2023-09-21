@@ -49,6 +49,8 @@ ALL= \
 	$(PDFDIR)/project-soliton.pdf \
 	$(PDFDIR)/project-stellar-structure.pdf \
 	$(PDFDIR)/project-psf.pdf \
+	$(PDFDIR)/projects-general.pdf \
+	$(PDFDIR)/project-hydro.pdf \
 	$(PDFDIR)/project-telescope.pdf \
 	$(PDFDIR)/project-three-body.pdf \
 	$(PDFDIR)/project-gravity-mesh.pdf \
