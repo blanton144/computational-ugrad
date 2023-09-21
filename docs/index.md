@@ -28,11 +28,13 @@ Problem sets:
 | [PS 2](pdf/ps-2.pdf) | 
 | [PS 3](pdf/ps-3.pdf) | 
 
-Potential projects (not a final list or finally revised instructions yet):
+There are [general instructions](pdf/projects-general.pdf) for the
+class project. The individual projects are below: 
 
 | [Gravity on a mesh](pdf/project-gravity-mesh.pdf) | 
 | [Point spread function of a telescope](pdf/project-telescope.pdf) | 
 | [Three-body problem](pdf/project-three-body.pdf) | 
 | [Double pendulum](pdf/project-double-pendulum.pdf) | 
 | [2D Ising Model](pdf/project-ising.pdf) | 
-| [Korteweg and deVries Equation](pdf/project-soliton.pdf) | 
+| [Solitons in the Korteweg and deVries Equation](pdf/project-soliton.pdf) | 
+| [Hydrodynamics](pdf/project-hydro.pdf) | 
